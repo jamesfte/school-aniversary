@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#63707e;
+	font-family: 'Hind', sans-serif;
+}
+
+h1{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+h3,p{
+	font-family: 'Asap', sans-serif;
+}
+
+.boxcolor{
+	background-color: #defcfc;
+}
+.container{
+	width:100%;
+	height:auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: center;
+}
+
+.col1{
+	width:100%;
+	height:auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.col2{
+	width:calc(650px - 20px);
+	height:auto;
+	padding:10px;
+	margin:10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.col3{
+	width:calc(450px - 20px);
+	height:auto;
+	padding:10px;
+	margin:10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.col4{
+	width:calc(320px - 20px);
+	height:auto;
+	padding:10px;
+	margin:10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.mtb{
+	margin:10px 0;
+}
+
+.nav{
+width: 50%;
+margin: 10px auto;
+text-align: center;
+}
+
+.nav ul {
+  display: inline-block;
+    list-style-type: none;
+	font-size: 18pt;
+}
+.nav li {
+float: left;
+}
+
+.nav li a {
+  display: block;
+  color:#93b5b3;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+.nav li a:hover {
+  background-color: #111;
+  color:#c8dad3;
+}
+
+#paper{
+	width:100%;
+	justify-content: center;
+	
+}
+	
+.table ul{
+	display: block;
+	float: left;
+	width:auto;
+}
+
+.table ul li a {
+	display: block;
+	color:#93b5b3;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+
+.table ul li a:hover {
+	background-color: #111;
+	color:#c8dad3;
+}
